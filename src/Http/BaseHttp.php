@@ -1,14 +1,14 @@
 <?php
 
-namespace nguyenanhung\Backend\Your_Project\Http;
+namespace thunt\api_login\Http;
 
-use nguyenanhung\Backend\Your_Project\Base\BaseCore;
-use nguyenanhung\Backend\Your_Project\Database\Database;
+use thunt\api_login\Base\BaseCore;
+use thunt\api_login\Database\Database;
 
 /**
  * Class BaseHttp
  *
- * @package   nguyenanhung\Backend\Your_Project\Http
+ * @package   thunt\api_login\Http
  * @author    713uk13m <dev@nguyenanhung.com>
  * @copyright 713uk13m <dev@nguyenanhung.com>
  */
@@ -24,7 +24,7 @@ class BaseHttp extends BaseCore
         'paramsIsEmpty'     => 6,
     ];
 
-    /** @var \nguyenanhung\Backend\Your_Project\Database\Database */
+    /** @var \thunt\api_login\Database\Database */
     protected $db;
 
     /**

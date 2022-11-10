@@ -8,14 +8,14 @@
  * Time: 00:38
  */
 
-namespace nguyenanhung\Backend\Your_Project\JWT;
+namespace thunt\api_login\JWT;
 
-use nguyenanhung\Backend\Your_Project\Base\BaseCore;
+use thunt\api_login\Base\BaseCore;
 
 /**
  * Class BaseJWT
  *
- * @package   nguyenanhung\Backend\Your_Project\JWT
+ * @package   thunt\api_login\JWT
  * @author    713uk13m <dev@nguyenanhung.com>
  * @copyright 713uk13m <dev@nguyenanhung.com>
  */

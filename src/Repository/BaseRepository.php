@@ -8,14 +8,14 @@
  * Time: 00:24
  */
 
-namespace nguyenanhung\Backend\Your_Project\Repository;
+namespace thunt\api_login\Repository;
 
-use nguyenanhung\Backend\Your_Project\Base\BaseCore;
+use thunt\api_login\Base\BaseCore;
 
 /**
  * Class BaseRepository
  *
- * @package   nguyenanhung\Backend\Your_Project\Repository
+ * @package   thunt\api_login\Repository
  * @author    713uk13m <dev@nguyenanhung.com>
  * @copyright 713uk13m <dev@nguyenanhung.com>
  */

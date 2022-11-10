@@ -43,7 +43,7 @@
     },
     "autoload": {
         "psr-4": {
-            "nguyenanhung\\Backend\\Your_Project\\": "src/"
+            "thunt\\api_login\\": "src/"
         },
         "files": [
             "helpers/helpers.php"

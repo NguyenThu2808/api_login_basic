@@ -1,11 +1,11 @@
 <?php
 
-namespace nguyenanhung\Backend\Your_Project\Config;
+namespace thunt\api_login\Config;
 
 /**
  * Class DataRepository
  *
- * @package   nguyenanhung\Backend\Your_Project\Config
+ * @package   thunt\api_login\Config
  * @author    713uk13m <dev@nguyenanhung.com>
  * @copyright 713uk13m <dev@nguyenanhung.com>
  */

@@ -1,15 +1,15 @@
 <?php
 
-namespace nguyenanhung\Backend\Your_Project\Database;
+namespace thunt\api_login\Database;
 
-use nguyenanhung\Backend\Your_Project\Base\BaseCore;
-use nguyenanhung\Backend\Your_Project\Database\Traits\SignatureTable;
+use thunt\api_login\Base\BaseCore;
+use thunt\api_login\Database\Traits\SignatureTable;
 use nguyenanhung\MyDatabase\Model\BaseModel;
 
 /**
  * Class Database
  *
- * @package   nguyenanhung\Backend\Your_Project\Database
+ * @package   thunt\api_login\Database
  * @author    713uk13m <dev@nguyenanhung.com>
  * @copyright 713uk13m <dev@nguyenanhung.com>
  */
@@ -19,6 +19,9 @@ class Database extends BaseCore
 
     /** @var array $database */
     protected $database;
+
+    /** @var array $table */
+    protected $table;
 
     /**
      * Database constructor.
@@ -68,6 +71,14 @@ class Database extends BaseCore
         $DB->debugLoggerFilename = 'Log-' . date('Y-m-d') . '.log';
         $DB->setDatabase($this->database);
         $DB->__construct($this->database);
+
+        return $DB;
+    }
+
+    public function initTable($table): BaseModel
+    {
+        $DB = $this->connection();
+        $DB->setTable($table);
 
         return $DB;
     }

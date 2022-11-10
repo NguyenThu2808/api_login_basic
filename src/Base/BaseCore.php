@@ -1,17 +1,17 @@
 <?php
 
-namespace nguyenanhung\Backend\Your_Project\Base;
+namespace thunt\api_login\Base;
 
 use nguyenanhung\MyDebug\Benchmark;
 use nguyenanhung\MyDebug\Logger;
 use nguyenanhung\MyCache\Cache;
 use nguyenanhung\MyRequests\MyRequests;
-use nguyenanhung\Backend\Your_Project\Helper\Helper;
+use thunt\api_login\Helper\Helper;
 
 /**
  * Class BaseCore
  *
- * @package   nguyenanhung\Backend\Your_Project\Base
+ * @package   thunt\api_login\Base
  * @author    713uk13m <dev@nguyenanhung.com>
  * @copyright 713uk13m <dev@nguyenanhung.com>
  */
@@ -23,7 +23,7 @@ class BaseCore
     const KEY_AUTH     = 'AUTH';
     const KEY_CONFIG   = 'CONFIG';
 
-    /** @var \nguyenanhung\Backend\Your_Project\Helper\Helper */
+    /** @var \thunt\api_login\Helper\Helper */
     protected $helper;
     /** @var \nguyenanhung\MyDebug\Benchmark */
     protected $benchmark;

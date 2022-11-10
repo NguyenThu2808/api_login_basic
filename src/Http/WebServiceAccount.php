@@ -1,11 +1,11 @@
 <?php
 
-namespace nguyenanhung\Backend\Your_Project\Http;
+namespace thunt\api_login\Http;
 
 /**
  * Class WebServiceAccount
  *
- * @package   nguyenanhung\Backend\Your_Project\Http
+ * @package   thunt\api_login\Http
  * @author    713uk13m <dev@nguyenanhung.com>
  * @copyright 713uk13m <dev@nguyenanhung.com>
  */
